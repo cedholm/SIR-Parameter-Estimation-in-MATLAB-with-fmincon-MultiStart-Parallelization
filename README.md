@@ -11,10 +11,16 @@ LowerBounds/UpperBounds - chnages the paramter range, here for just beta
 
 This code outputs for each run: the parameters, minimized difference function value, and the exit flags on convergence. The code also plots the "best fit".
 
-SIR_Model.m is a base ODEE model for a Susceptible Infected Recovered (SIR) system.
+SIR_Model.m is a base ODE model for a Susceptible Infected Recovered (SIR) system.
 
 $$\begin{align*}
 \frac{dS}{dt} &= -\beta S I\\
 \frac{dI}{dt} &= \beta S I - \gamma I\\
 \frac{dR}{dt} &= \gamma I\,
+\end{align*}$$
+
+We add in an additional state equation to keep track of cumulative infections (CI): 
+
+$$\begin{align*}
+\frac{dCI}{dt} &= \beta S I
 \end{align*}$$
