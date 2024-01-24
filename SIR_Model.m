@@ -38,9 +38,9 @@ R = y(3);
 % Start DEs------
 % dS/dt
 dydt(1) = -beta*S*I;
-% dE/dt
-dydt(2) = beta*S*I-gamma*I;
 % dI/dt
+dydt(2) = beta*S*I-gamma*I;
+% dR/dt
 dydt(3) = gamma*I;
 % %Keep track of cumulative infections - what we have data for to match
 % with
