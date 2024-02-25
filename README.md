@@ -24,3 +24,5 @@ We add an additional state equation to keep track of cumulative infections (CI):
 $$\begin{align*}
 \frac{dCI}{dt} &= \beta S I
 \end{align*}$$
+
+The Math185 Class Scripps College Spring 2024 with Christina Edholm.pdf are class slides for Prof. Edholm's Math 285 (Methods in Modern Modeling) course which includes using the code here, class activity, and associated worksheet/homework problems in the To Do.
