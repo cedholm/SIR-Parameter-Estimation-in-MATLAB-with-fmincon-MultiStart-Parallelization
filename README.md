@@ -25,4 +25,6 @@ $$\begin{align*}
 \frac{dCI}{dt} &= \beta S I
 \end{align*}$$
 
-The Math185 Class Scripps College Spring 2024 with Christina Edholm.pdf are class slides for Prof. Edholm's Math 285 (Methods in Modern Modeling) course which includes using the code here, class activity, and associated worksheet/homework problems in the To Do.
+The Math185 Class Scripps College Spring 2024 with Christina Edholm.pdf are class slides for Prof. Edholm's Math 185 (Methods in Modern Modeling) course which includes using the code here, class activity, and associated worksheet/homework problems in the To Do.
+
+There is an addtional SIR_MultiStart_Save.m which mirrors SIR_MultiStart.m, but saves the estmiation outputs in an excel and also the resulting best fit plots. This code also has the output value to minimized now normalized by the data. 
